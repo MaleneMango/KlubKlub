@@ -1,11 +1,36 @@
 /*Note: Reducer mockup med 35% = 65% af de oprindelige mål*/
 
+
 /*Font*/
 h1 {
   font-family: Oswald;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: .20em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .20em;
+  text-transform: uppercase;
+  color: #808080;
+}
+
+h3 {
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .20em;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: arial;
+  color: #808080;
+  font-size: 12px;
 }
 
 /*Phone*/
@@ -74,17 +99,25 @@ height: 100%;
   padding-top: 65px;
 }
 
+.app-content a {
+  text-decoration: none;
+}
+
 /*Nyheder - de der knapper, ved ikke om det skal hedde noget andet der giver mere mening haha*/
 .nyheder-element {
   width: 150.8px;
   height: 130px;
-  background-color: lightpink;
-  margin: 8.125px;
+  background-color: #fff;
+  margin-top: 8.125px;
+  margin-bottom: 8.125px;
   box-shadow: 0px 4px 10px 0px rgba(227,227,227,1);
+  text-align: center;
 }
 
 .nyheder-element:nth-child(odd) {
+  margin-right: 0px;
   margin-left: 16.25px;
+  margin-bottom: 0px;
 }
 
 .nyheder-element:nth-child(2) {
@@ -93,4 +126,38 @@ height: 100%;
 
 .nyheder-element:first-child {
   margin-top: 16.25px;
+}
+
+.nyheder-element:hover {
+  cursor: pointer;
+}
+
+.nyheder-element h2 {
+  height: 130px;
+  line-height: 130px;
+}
+
+/*Content under nyheder-elements - blogindlæg / kampagner / tilbud*/
+.nyheder-title {
+  margin: 16.25px 16.25px 16.25px 16.25px;
+}
+
+.nyhed {
+  height: 280px;
+  width: 318.5px;
+  margin-bottom: 16.25px;
+  box-shadow: 0px 4px 10px 0px rgba(227,227,227,1);
+}
+
+.nyhed h3 {
+  margin: 16.25px 16.25px 16.25px 16.25px;
+}
+
+.nyhed p {
+  margin: 16.25px 16.25px 16.25px 16.25px;
+}
+
+.blog-img {
+  height: 162.5px;
+  width: 318.5px;
 }
