@@ -98,7 +98,47 @@ height: 100%;
   margin-right: 16.25px;
 }
 
-/*App content*/
+/*Menu.html - burger*/
+
+.menu {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  height: 624px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu-logo {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+  display: inline-block;
+  width: 145.6px;
+  height: 49.4px;
+}
+
+.no-shadow .kurv-icon img{
+  margin-top: 22px;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.menu-items {
+  margin-top: 32.5px;
+
+}
+
+.menu-items h3 {
+  color: #000;
+  margin-bottom: 32.5px;
+}
+
+/*App content - index*/
 .app-content {
   background-color: #fff;
   display: flex;
