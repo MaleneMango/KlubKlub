@@ -1,7 +1,18 @@
+/*Note: Reducer mockup med 35% = 65% af de oprindelige mål*/
+
+/*Font*/
+h1 {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: .20em;
+}
+
+/*Phone*/
 .phone {
   background-image: url("../media/phone.png");
-  height: 940px;
-  width: 475px;
+  height: 698px;
+  width: 397.39px;
   background-size: cover;
 }
 
@@ -10,51 +21,76 @@
 position: absolute;
 overflow: hidden auto;
  display: block;
- top: 58px;
- left: 36px;
- width: 420px; /*540-120=420*/ /*Reduceret ned til 77.777777777778% af oprindelige mockup*/
- height: 840px; /*960-120=840*/
+ top: 46px;
+ left: 31px;
+ height: 624px;
+ width: 351px;
 }
 
 .app-container::-webkit-scrollbar {width: 0!important}
 
 /*App*/
 .app {
-width: 420px; /*540-120=420*/
+width: 351px;
 height: 100%;
-background-color: #FFF;
 }
 
 /*Nav*/
 .nav {
-  width: 420px;
-  height: 77.777777777778px;
+  width: 351px;
+  height: 65px;
   background-color: #FFF;
   display: block;
   box-shadow: 0px 10px 10px -10px rgba(227,227,227,1);
   position: fixed;
-  top: 58px;
+}
+
+.burger-icon img {
+  width: 21.45px;
+  height: 17.55px;
+  margin-left: 16.25px;
+  padding-top: 23.4px;
+}
+
+.nav-title {
+  text-align: center;
+  margin-top: -41px;
+}
+
+.kurv-icon img {
+  width: 19.5px;
+  height: 19.5px;
+  float: right;
+  margin-top: -38px;
+  margin-right: 16.25px;
 }
 
 /*App content*/
 .app-content {
-  margin-top: 77.777777777778px;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-top: 65px;
 }
 
 /*Nyheder - de der knapper, ved ikke om det skal hedde noget andet der giver mere mening haha*/
 .nyheder-element {
-  width: 180.264px; /*77.7% af 232 = 180.264*/
-  height: 155.4px; /*77.7% af 200 = 155.4*/
-  background-color: #FFF;
-  margin: 9.7125px;
-  margin-top: 19.425px;
+  width: 150.8px;
+  height: 130px;
+  background-color: lightpink;
+  margin: 8.125px;
   box-shadow: 0px 4px 10px 0px rgba(227,227,227,1);
 }
 
 .nyheder-element:nth-child(odd) {
-  margin-left: 19.425px;
-  margin-top: 19.425px;
+  margin-left: 16.25px;
+}
+
+.nyheder-element:nth-child(2) {
+  margin-top: 16.25px;
+}
+
+.nyheder-element:first-child {
+  margin-top: 16.25px;
 }
