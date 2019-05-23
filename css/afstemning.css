@@ -1,0 +1,24 @@
+.back-icon img {
+  width: 20.15px;
+  height: 19.5px;
+  margin-left: 16.25px;
+  padding-top: 23.4px;
+}
+
+.vote-container {
+  background-color: #9DD278;
+  height: 624px;
+  width: 351px;
+}
+
+.vote-content h3 {
+  margin: 16.25px 16.25px 16.25px 16.25px;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.vote-content h2 {
+  margin: 16.25px 16.25px 16.25px 16.25px;
+  color: #fff;
+}
