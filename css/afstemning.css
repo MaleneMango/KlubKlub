@@ -22,3 +22,58 @@
   margin: 16.25px 16.25px 16.25px 16.25px;
   color: #fff;
 }
+
+.vote-content h4 {
+  margin: 16.25px 16.25px 16.25px 16.25px;
+  color: #fff;
+  text-align: center;
+
+}
+
+
+.vote-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.vote-options a {
+  text-decoration: none;
+}
+
+.vote-option {
+  width: 150.8px;
+  height: 180px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 16.25px 16.25px 16.25px 16.25px;
+}
+
+.vote-option:nth-child(odd) {
+  margin-right: 0px;
+  margin-left: 16.25px;
+  margin-bottom: 0px;
+}
+
+.vote-option:nth-child(2) {
+  margin-top: 16.25px;
+}
+
+.vote-option:first-child {
+  margin-top: 16.25px;
+}
+
+.vote-option:hover {
+  cursor: pointer;
+}
+
+.vote-option h3 {
+  color: #808080;
+}
+
+.vote-img  {
+  width: 113.75px;
+  height: 107.9px;
+  margin-top: 16.25px;
+}

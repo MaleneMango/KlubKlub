@@ -4,7 +4,7 @@
 /*Font*/
 h1 {
   font-family: Oswald;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: .20em;
   text-transform: uppercase;
@@ -23,6 +23,14 @@ h3 {
   font-family: Oswald;
   font-size: 16px;
   font-weight: 400;
+  letter-spacing: .20em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: Oswald;
+  font-size: 12px;
+  font-weight: 200;
   letter-spacing: .20em;
   text-transform: uppercase;
 }
@@ -79,14 +87,14 @@ height: 100%;
 
 .nav-title {
   text-align: center;
-  margin-top: -41px;
+  margin-top: -36px;
 }
 
 .kurv-icon img {
   width: 19.5px;
   height: 19.5px;
   float: right;
-  margin-top: -38px;
+  margin-top: -36px;
   margin-right: 16.25px;
 }
 
