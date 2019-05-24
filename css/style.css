@@ -1,5 +1,10 @@
 /*Note: Reducer mockup med 35% = 65% af de oprindelige mål*/
 
+/*Farver
+Primær #EB8675
+Grøn #9DD278
+Grå #808080
+*/
 
 /*Font*/
 h1 {
@@ -181,8 +186,7 @@ height: 100%;
 }
 
 .nyheder-element h2 {
-  height: 130px;
-  line-height: 130px;
+  margin: 16.25px 16.25px 16.25px 16.25px;
 }
 
 /*Content under nyheder-elements - blogindlæg / kampagner / tilbud*/
