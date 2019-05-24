@@ -1,0 +1,19 @@
+.game-container {
+  background-color: #EB8675;
+  opacity: .7;
+  height: 624px;
+}
+
+.game-container h2  {
+  color: #fff;
+  margin: 16.25px 16.25px 16.25px 16.25px;
+}
+
+.game {
+  width: 318.5px;
+  height: 455px;
+  display: block;
+  background-color: #fff;
+  border-radius: 5px;
+    margin: 16.25px 16.25px 16.25px 16.25px;
+}
