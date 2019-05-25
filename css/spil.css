@@ -1,6 +1,5 @@
 .game-container {
-  background-color: #EB8675;
-  opacity: .7;
+  background-color: #F1AB9F;
   height: 624px;
 }
 
@@ -73,76 +72,69 @@
 
 
 
+/*Gift game - mangler z-index, så de holder sig inden for rammen*/
 
+.game-top {
+  z-index: ;
+}
 
-
-
-
-/*Gift game - under udvikling høhø*/
+.gift img {
+  padding: 10px;
+  width: 60px;
+  z-index: -2;
+}
 
 .game a {
 	display: inline-block;
-	-webkit-animation: game 4s linear 2s 20;
-	-moz-animation: game 4s linear 2s 20;
-	position: relative;
+	animation: game 7s linear 2s 20;
+  margin-top: -200px;
 }
-
-.game a:after, a:before {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	-webkit-transform: rotate(80deg);
-}
-
-.game a:before { -webkit-transform: rotate(120deg); }
 
 @-webkit-keyframes game {
 	0% {
-		-webkit-transform: translate3d(0,0,0) rotate(0deg) scale(0.8);
+		-webkit-transform: translate3d(0,0,0);
 	}
 	100% {
-		-webkit-transform: translate3d(15px, 600px, 0px) rotate(0deg) scale(0.5);
+		-webkit-transform: translate3d(10px, 600px, 10px);
 	};
 }
 
 .game a:nth-child(3n) {
-	width: 16px; height: 4px;
-	-webkit-animation-duration: 4s;
+	width: 18px; height: 4px;
+	-webkit-animation-duration: 7s;
 	-webkit-animation-iteration-count: 30;
 	-webkit-transform-origin: right -45px;
 }
 
 .game a:nth-child(3n+1) {
-	width: 24px; height: 6px;
-	-webkit-animation-duration: 6s;
+	width: 23px;
+	-webkit-animation-duration: 10s;
 	-webkit-animation-iteration-count: 45;
 	-webkit-transform-origin: right -30px;
 }
 
 .game a:nth-child(3n+2) {
-	width: 32px; height: 8px;
-	-webkit-animation-duration: 8s;
+	width: 40px; height: 8px;
+	-webkit-animation-duration: 14s;
 	-webkit-animation-iteration-count: 60;
 	-webkit-transform-origin: right -15px;
 }
 
-/* different delays so they don't all start at the same time */
+/* delays */
 .game a:nth-child(7n) {
 
   -webkit-animation-delay: 0s;
   -webkit-animation-timing-function:ease-in;
 }
-.game i:nth-child(7n+1) {
+.game a:nth-child(7n+1) {
 
   -webkit-animation-delay: 1s;
   -webkit-animation-timing-function:ease-out;
 }
 .game a:nth-child(7n+2) {
 
-  -webkit-animation-delay: 1.5s;
-  -webkit-animation-timing-function:linear;
+  -webkit-animation-delay: 1.8s;
+  -webkit-animation-timing-function:ease-in;
 }
 .game a:nth-child(7n+3) {
 
@@ -151,16 +143,16 @@
 }
 .game a:nth-child(7n+4) {
 
-  -webkit-animation-delay: 2.5s;
-  -webkit-animation-timing-function:linear;
+  -webkit-animation-delay: 3.5s;
+  -webkit-animation-timing-function:ease-in;
 }
 .game a:nth-child(7n+5) {
 
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 4.5s;
   -webkit-animation-timing-function:ease-out;
 }
 .game a:nth-child(7n+6) {
 
-  -webkit-animation-delay: 3.5s;
+  -webkit-animation-delay: 6s;
   -webkit-animation-timing-function:ease-in;
 }
