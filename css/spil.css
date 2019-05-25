@@ -19,6 +19,65 @@
   margin: 16.25px 16.25px 16.25px 16.25px;
 }
 
+/*spil-pakke.html*/
+
+.gift-selected {
+  text-align: center;
+  padding-top: 117px;
+}
+.gift-selected h2 {
+  margin-bottom: 32.4px;
+}
+
+#opengift {
+  width: 180px;
+  text-align: center;
+  margin-left: -25px;
+  animation: shake 4s cubic-bezier(.12,.07,.19,.97) both;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+/*pakke hopper - ikke færdig*/
+
+@keyframes shake {
+  5%, 50% {
+    transform: translate3d(0, -1px, 0);
+  }
+
+  10%, 40% {
+    transform: translate3d(0, 2px, 0);
+  }
+
+  20%, 30%, 25% {
+    transform: translate3d(0, -4px, 0);
+  }
+
+  45%, 55% {
+    transform: translate3d(0, 4px, 0);
+  }
+  100% {
+      transform: translate3d(0, 0, 0);
+
+    }
+}
+
+
+.dark-bg {
+  background-color: #EB8675;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*Gift game - under udvikling høhø*/
 
 .game a {
