@@ -8,6 +8,7 @@ $(document).ready(function() {
     });
 });
 
+// Link to random prize
 var sites = [
         'gift1.html',
         'gift2.html',
