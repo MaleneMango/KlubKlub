@@ -15,6 +15,8 @@ var sites = [
         'gift3.html',
         'nogift1.html',
         'nogift2.html',
+        'nogift1.html',
+        'nogift2.html',
     ];
 
               function randomSite() {
