@@ -7,3 +7,16 @@ $(document).ready(function() {
         $(this).toggleClass('selected');
     });
 });
+
+var sites = [
+        'gift1.html',
+        'gift2.html',
+        'gift3.html',
+        'nogift1.html',
+        'nogift2.html',
+    ];
+
+              function randomSite() {
+          var i = parseInt(Math.random() * sites.length);
+          location.href = sites[i];
+      }

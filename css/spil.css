@@ -15,5 +15,92 @@
   display: block;
   background-color: #fff;
   border-radius: 5px;
-    margin: 16.25px 16.25px 16.25px 16.25px;
+  margin: 16.25px 16.25px 16.25px 16.25px;
+}
+
+/*Gift game - under udvikling høhø*/
+
+.game a {
+	display: inline-block;
+	-webkit-animation: game 4s linear 2s 20;
+	-moz-animation: game 4s linear 2s 20;
+	position: relative;
+}
+
+.game a:after, a:before {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-webkit-transform: rotate(80deg);
+}
+
+.game a:before { -webkit-transform: rotate(120deg); }
+
+@-webkit-keyframes game {
+	0% {
+		-webkit-transform: translate3d(0,0,0) rotate(0deg) scale(0.8);
+	}
+	100% {
+		-webkit-transform: translate3d(15px, 600px, 0px) rotate(0deg) scale(0.5);
+	};
+}
+
+.game a:nth-child(3n) {
+	width: 16px; height: 4px;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count: 30;
+	-webkit-transform-origin: right -45px;
+}
+
+.game a:nth-child(3n+1) {
+	width: 24px; height: 6px;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-iteration-count: 45;
+	-webkit-transform-origin: right -30px;
+}
+
+.game a:nth-child(3n+2) {
+	width: 32px; height: 8px;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: 60;
+	-webkit-transform-origin: right -15px;
+}
+
+/* different delays so they don't all start at the same time */
+.game a:nth-child(7n) {
+
+  -webkit-animation-delay: 0s;
+  -webkit-animation-timing-function:ease-in;
+}
+.game i:nth-child(7n+1) {
+
+  -webkit-animation-delay: 1s;
+  -webkit-animation-timing-function:ease-out;
+}
+.game a:nth-child(7n+2) {
+
+  -webkit-animation-delay: 1.5s;
+  -webkit-animation-timing-function:linear;
+}
+.game a:nth-child(7n+3) {
+
+  -webkit-animation-delay: 2s;
+  -webkit-animation-timing-function:ease-in;
+}
+.game a:nth-child(7n+4) {
+
+  -webkit-animation-delay: 2.5s;
+  -webkit-animation-timing-function:linear;
+}
+.game a:nth-child(7n+5) {
+
+  -webkit-animation-delay: 3s;
+  -webkit-animation-timing-function:ease-out;
+}
+.game a:nth-child(7n+6) {
+
+  -webkit-animation-delay: 3.5s;
+  -webkit-animation-timing-function:ease-in;
 }
