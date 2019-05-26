@@ -1,158 +1,216 @@
-.game-container {
-  background-color: #F1AB9F;
+/*Note: Reducer mockup med 35% = 65% af de oprindelige mål*/
+
+/*Farver
+Primær #EB8675
+Grøn #9DD278
+Grå #808080
+*/
+
+/*Font*/
+h1 {
+  font-family: Oswald;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .20em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .20em;
+  text-transform: uppercase;
+  color: #808080;
+}
+
+h3 {
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .20em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: Oswald;
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: .20em;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: arial;
+  color: #808080;
+  font-size: 12px;
+}
+
+/*Phone*/
+.phone {
+  background-image: url("../media/phone.png");
+  height: 698px;
+  width: 397.39px;
+  background-size: cover;
+  position: relative;
+}
+
+/*App container*/
+.app-container {
+position: absolute;
+overflow: hidden auto;
+ display: block;
+ top: 37px;
+ left: 23px;
+ height: 624px;
+ width: 351px;
+}
+
+.app-container::-webkit-scrollbar {width: 0!important}
+
+/*App*/
+.app {
+width: 351px;
+height: 100%;
+}
+
+/*Nav*/
+.nav {
+  width: 351px;
+  height: 65px;
+  background-color: #FFF;
+  display: block;
+  box-shadow: 0px 10px 10px -10px rgba(227,227,227,1);
+  position: fixed;
+}
+
+.burger-icon img {
+  width: 21.45px;
+  height: 17.55px;
+  margin-left: 16.25px;
+  padding-top: 23.4px;
+}
+
+.nav-title {
+  text-align: center;
+  margin-top: -36px;
+}
+
+.kurv-icon img {
+  width: 19.5px;
+  height: 19.5px;
+  float: right;
+  margin-top: -36px;
+  margin-right: 16.25px;
+}
+
+/*Menu.html - burger*/
+
+.menu {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
   height: 624px;
 }
 
-.game-container h2  {
-  color: #fff;
-  margin: 16.25px 16.25px 16.25px 16.25px;
-  line-height: 2;
+.menu a {
+  text-decoration: none;
 }
 
-.game {
-  width: 318.5px;
-  height: 455px;
-  display: block;
+.menu-logo {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+  display: inline-block;
+  width: 145.6px;
+  height: 49.4px;
+}
+
+.no-shadow .kurv-icon img{
+  margin-top: 23px;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.menu-items {
+  margin-top: 32.5px;
+
+}
+
+.menu-items h3 {
+  color: #000;
+  margin-bottom: 32.5px;
+}
+
+/*App content - index*/
+.app-content {
   background-color: #fff;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 65px;
+}
+
+.app-content a {
+  text-decoration: none;
+}
+
+/*Nyheder - de der knapper, ved ikke om det skal hedde noget andet der giver mere mening haha*/
+.nyheder-element {
+  width: 150.8px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 8.125px;
+  margin-bottom: 8.125px;
+  box-shadow: 0px 4px 10px 0px rgba(227,227,227,1);
+  text-align: center;
+}
+
+.nyheder-element:nth-child(odd) {
+  margin-right: 0px;
+  margin-left: 16.25px;
+  margin-bottom: 0px;
+}
+
+.nyheder-element:nth-child(2) {
+  margin-top: 16.25px;
+}
+
+.nyheder-element:first-child {
+  margin-top: 16.25px;
+}
+
+.nyheder-element:hover {
+  cursor: pointer;
+}
+
+.nyheder-element h2 {
   margin: 16.25px 16.25px 16.25px 16.25px;
 }
 
-/*spil-pakke.html*/
-
-.gift-selected {
-  text-align: center;
-  padding-top: 117px;
-}
-.gift-selected h2 {
-  margin-bottom: 32.4px;
+/*Content under nyheder-elements - blogindlæg / kampagner / tilbud*/
+.nyheder-title {
+  margin: 16.25px 16.25px 16.25px 16.25px;
 }
 
-#opengift {
-  width: 180px;
-  text-align: center;
-  margin-left: -25px;
-  animation: shake 4s cubic-bezier(.12,.07,.19,.97) both;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
+.nyhed {
+  height: 280px;
+  width: 318.5px;
+  margin-bottom: 16.25px;
+  box-shadow: 0px 4px 10px 0px rgba(227,227,227,1);
 }
 
-/*pakke hopper - ikke færdig*/
-
-@keyframes shake {
-  5%, 50% {
-    transform: translate3d(0, -1px, 0);
-  }
-
-  10%, 40% {
-    transform: translate3d(0, 2px, 0);
-  }
-
-  20%, 30%, 25% {
-    transform: translate3d(0, -4px, 0);
-  }
-
-  45%, 55% {
-    transform: translate3d(0, 4px, 0);
-  }
-  100% {
-      transform: translate3d(0, 0, 0);
-
-    }
+.nyhed h3 {
+  margin: 16.25px 16.25px 16.25px 16.25px;
 }
 
-
-.dark-bg {
-  background-color: #EB8675;
-  opacity: 1;
+.nyhed p {
+  margin: 16.25px 16.25px 16.25px 16.25px;
 }
 
-
-
-
-
-
-/*Gift game - mangler z-index, så de holder sig inden for rammen*/
-
-.game-top {
-  z-index: ;
-}
-
-.gift img {
-  padding: 10px;
-  width: 60px;
-  z-index: -2;
-}
-
-.game a {
-	display: inline-block;
-	animation: game 7s linear 2s 20;
-  margin-top: -200px;
-}
-
-@-webkit-keyframes game {
-	0% {
-		-webkit-transform: translate3d(0,0,0);
-	}
-	100% {
-		-webkit-transform: translate3d(10px, 600px, 10px);
-	};
-}
-
-.game a:nth-child(3n) {
-	width: 18px; height: 4px;
-	-webkit-animation-duration: 7s;
-	-webkit-animation-iteration-count: 30;
-	-webkit-transform-origin: right -45px;
-}
-
-.game a:nth-child(3n+1) {
-	width: 23px;
-	-webkit-animation-duration: 10s;
-	-webkit-animation-iteration-count: 45;
-	-webkit-transform-origin: right -30px;
-}
-
-.game a:nth-child(3n+2) {
-	width: 40px; height: 8px;
-	-webkit-animation-duration: 14s;
-	-webkit-animation-iteration-count: 60;
-	-webkit-transform-origin: right -15px;
-}
-
-/* delays */
-.game a:nth-child(7n) {
-
-  -webkit-animation-delay: 0s;
-  -webkit-animation-timing-function:ease-in;
-}
-.game a:nth-child(7n+1) {
-
-  -webkit-animation-delay: 1s;
-  -webkit-animation-timing-function:ease-out;
-}
-.game a:nth-child(7n+2) {
-
-  -webkit-animation-delay: 1.8s;
-  -webkit-animation-timing-function:ease-in;
-}
-.game a:nth-child(7n+3) {
-
-  -webkit-animation-delay: 2s;
-  -webkit-animation-timing-function:ease-in;
-}
-.game a:nth-child(7n+4) {
-
-  -webkit-animation-delay: 3.5s;
-  -webkit-animation-timing-function:ease-in;
-}
-.game a:nth-child(7n+5) {
-
-  -webkit-animation-delay: 4.5s;
-  -webkit-animation-timing-function:ease-out;
-}
-.game a:nth-child(7n+6) {
-
-  -webkit-animation-delay: 6s;
-  -webkit-animation-timing-function:ease-in;
+.blog-img {
+  height: 162.5px;
+  width: 318.5px;
 }
