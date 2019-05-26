@@ -7,6 +7,7 @@
   color: #fff;
   margin: 16.25px 16.25px 16.25px 16.25px;
   line-height: 2;
+  text-align: center;
 }
 
 .game {
@@ -16,6 +17,12 @@
   background-color: #fff;
   border-radius: 5px;
   margin: 16.25px 16.25px 16.25px 16.25px;
+  overflow: hidden;
+}
+
+.game a {
+  position: relative;
+  top: -20px;
 }
 
 /*spil-pakke.html*/
