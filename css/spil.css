@@ -30,6 +30,8 @@
 .gift-selected {
   text-align: center;
   padding-top: 117px;
+  max-width: 75%;
+  margin: 0px auto;
 }
 .gift-selected h2 {
   margin-bottom: 32.4px;
@@ -42,6 +44,45 @@
   animation: shake 4s cubic-bezier(.12,.07,.19,.97) both;
   animation-delay: 2s;
   animation-iteration-count: infinite;
+}
+
+/*gift pages*/
+
+.product-spotlight-circle {
+  background-color: #fff;
+  height: 250px;
+  width: 250px;
+  max-height: 210px;
+  max-width: 210px;
+  border-radius: 105px;
+  margin: 10px auto;
+  animation: pulse 1s;
+  animation-delay: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  overflow: hidden;
+}
+
+.product-spotlight-circle img {
+  margin-top: 30px;
+  height: 65%;
+  width: 65%;
+}
+
+/* animation virker ikke */
+
+@keyframes pulse {
+  0% {
+    transform: max-height: 250px;
+    transform: max-width: 250px;
+    transform: border-radius: 125px;
+  }
+  100% {
+    transform: max-height: 270px;
+    transform: max-width: 270px;
+    transform: border-radius: 135px;
+  }
 }
 
 /*pakke hopper - ikke færdig*/
@@ -74,7 +115,9 @@
   opacity: 1;
 }
 
-
+.green-bg {
+  background-color: #9DD278;
+}
 
 
 
