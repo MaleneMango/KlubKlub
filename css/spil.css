@@ -89,7 +89,7 @@
 
 .game a {
 	display: inline-block;
-	animation: game 7s linear 2s 20;
+	animation: game 5s linear 2s 20;
   margin-top: -200px;
 }
 
@@ -130,17 +130,17 @@
 }
 .game a:nth-child(7n+1) {
 
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 0.6s;
   -webkit-animation-timing-function:ease-out;
 }
 .game a:nth-child(7n+2) {
 
-  -webkit-animation-delay: 1.8s;
+  -webkit-animation-delay: 1s;
   -webkit-animation-timing-function:ease-in;
 }
 .game a:nth-child(7n+3) {
 
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1.8s;
   -webkit-animation-timing-function:ease-in;
 }
 .game a:nth-child(7n+4) {
@@ -155,7 +155,7 @@
 }
 .game a:nth-child(7n+6) {
 
-  -webkit-animation-delay: 6s;
+  -webkit-animation-delay: 5s;
   -webkit-animation-timing-function:ease-in;
 }
 
