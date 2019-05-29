@@ -26,10 +26,11 @@ h2 {
 
 h3 {
   font-family: Oswald;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: .20em;
   text-transform: uppercase;
+  color: #808080;
 }
 
 h4 {
@@ -158,8 +159,19 @@ height: 100%;
   text-decoration: none;
 }
 
-/*Nyheder - de der knapper, ved ikke om det skal hedde noget andet der giver mere mening haha*/
-.nyheder-element {
+/*Nyheder / Forside*/
+.img-title img {
+  max-height: 70px;
+  margin-top: 16.25px;
+}
+
+.img-title {
+  margin-top: 16.25px;
+  margin-bottom: 16.25px;
+    display: block;
+}
+
+.forside-element {
   width: 150.8px;
   height: 130px;
   background-color: #fff;
@@ -169,26 +181,28 @@ height: 100%;
   text-align: center;
 }
 
-.nyheder-element:nth-child(odd) {
+.forside-element:nth-child(odd) {
   margin-right: 0px;
   margin-left: 16.25px;
   margin-bottom: 0px;
 }
 
-.nyheder-element:nth-child(2) {
+.forside-element:nth-child(2) {
   margin-top: 16.25px;
 }
 
-.nyheder-element:first-child {
+.forside-element:first-child {
   margin-top: 16.25px;
 }
 
-.nyheder-element:hover {
+.forside-element:hover {
   cursor: pointer;
 }
 
-.nyheder-element h2 {
-  margin: 16.25px 16.25px 16.25px 16.25px;
+.img-title h3 {
+  display: block;
+  margin: 0px;
+  margin-bottom: 16.25px;
 }
 
 /*Content under nyheder-elements - blogindlæg / kampagner / tilbud*/
