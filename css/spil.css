@@ -42,6 +42,10 @@
   margin: 0px auto;
 }
 
+.gift-selected:hover {
+  cursor: pointer;
+}
+
 .gift-selected h2 {
   margin-bottom: 32.4px;
 }
