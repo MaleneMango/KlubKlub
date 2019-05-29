@@ -25,91 +25,6 @@
   top: -20px;
 }
 
-/*spil-pakke.html*/
-
-.gift-selected {
-  text-align: center;
-  padding-top: 117px;
-  max-width: 75%;
-  margin: 0px auto;
-}
-.gift-selected h2 {
-  margin-bottom: 32.4px;
-}
-
-#opengift {
-  width: 180px;
-  text-align: center;
-  margin-left: -25px;
-  animation: shake 4s cubic-bezier(.12,.07,.19,.97) both;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-}
-
-/*gift pages*/
-
-.product-spotlight-circle {
-  background-color: #fff;
-  height: 250px;
-  width: 250px;
-  max-height: 210px;
-  max-width: 210px;
-  border-radius: 105px;
-  margin: 10px auto;
-  animation: pulse 1s;
-  animation-delay: 0.5s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  overflow: hidden;
-}
-
-.product-spotlight-circle img {
-  margin-top: 30px;
-  height: 65%;
-  width: 65%;
-}
-
-/* animation virker ikke */
-
-@keyframes pulse {
-  0% {
-    transform: max-height: 250px;
-    transform: max-width: 250px;
-    transform: border-radius: 125px;
-  }
-  100% {
-    transform: max-height: 270px;
-    transform: max-width: 270px;
-    transform: border-radius: 135px;
-  }
-}
-
-/*pakke hopper - ikke færdig*/
-
-@keyframes shake {
-  5%, 50% {
-    transform: translate3d(0, -1px, 0);
-  }
-
-  10%, 40% {
-    transform: translate3d(0, 2px, 0);
-  }
-
-  20%, 30%, 25% {
-    transform: translate3d(0, -4px, 0);
-  }
-
-  45%, 55% {
-    transform: translate3d(0, 4px, 0);
-  }
-  100% {
-      transform: translate3d(0, 0, 0);
-
-    }
-}
-
-
 .dark-bg {
   background-color: #EB8675;
   opacity: 1;
@@ -119,10 +34,44 @@
   background-color: #9DD278;
 }
 
+/*spil-pakke.html*/
 
+.gift-selected {
+  text-align: center;
+  max-width: 75%;
+  margin: 0px auto;
+}
 
+.gift-selected h2 {
+  margin-bottom: 32.4px;
+}
 
-/*Gift game - mangler z-index, så de holder sig inden for rammen*/
+#opengift {
+  width: 160px;
+  padding-top: 190px;
+  text-align: center;
+  margin-left: -25px;
+  animation: shake 1s  both;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/*Pakke shake*/
+
+@keyframes shake {
+  10% {
+    transform: translate3d(0, 0px, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+  100% {
+      transform: translate3d(0, 0, 0);
+
+    }
+}
+
+/*Gift game*/
 
 .game-top {
   z-index: ;
@@ -170,7 +119,6 @@
 	-webkit-transform-origin: right -15px;
 }
 
-/* delays */
 .game a:nth-child(7n) {
 
   -webkit-animation-delay: 0s;
@@ -205,4 +153,50 @@
 
   -webkit-animation-delay: 6s;
   -webkit-animation-timing-function:ease-in;
+}
+
+/*Gift pages*/
+
+.gift-container {
+  text-align: center;
+  max-width: 75%;
+  margin: 0px auto;
+  padding-top: 90px;
+}
+
+.product-spotlight-circle {
+  background-color: #fff;
+  height: 250px;
+  width: 250px;
+  max-height: 210px;
+  max-width: 210px;
+  border-radius: 105px;
+  margin: 10px auto;
+  animation: pulse 1s;
+  animation-delay: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  overflow: hidden;
+}
+
+.product-spotlight-circle img {
+  margin-top: 30px;
+  height: 65%;
+  width: 65%;
+}
+
+/* animation virker ikke */
+
+@keyframes pulse {
+  0% {
+    transform: max-height: 250px;
+    transform: max-width: 250px;
+    transform: border-radius: 125px;
+  }
+  100% {
+    transform: max-height: 270px;
+    transform: max-width: 270px;
+    transform: border-radius: 135px;
+  }
 }
