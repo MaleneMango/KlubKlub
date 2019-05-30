@@ -19,7 +19,17 @@ var sites = [
         'nogift2.html',
     ];
 
-              function randomSite() {
-          var i = parseInt(Math.random() * sites.length);
-          location.href = sites[i];
-      }
+function grabGift() {
+    $.playSound("media/audio/whoosh.ogg"); // Sound effect
+   setTimeout(function(){
+     location.href = "spil-pakke.html";
+   }, 500);
+}
+
+function randomSite() {
+    $.playSound("media/audio/open-gift.ogg"); // Sound effect
+   setTimeout(function(){
+     var i = parseInt(Math.random() * sites.length);
+     location.href = sites[i];
+   }, 3700);
+}
