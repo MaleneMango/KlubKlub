@@ -248,11 +248,17 @@ height: 100%;
 
 .forside-element-afstemning {
   width: 210px;
-  height: 130px;
+  height: 150px;
   background-color: #fff;
   margin-top: 8.125px;
   margin-bottom: 8.125px;
   box-shadow: 0px 4px 10px 0px rgba(227,227,227,1);
   text-align: center;
   border-radius: 10px;
+}
+
+.forside-element-afstemning p {
+  margin-top: -10px;
+  font-size: 12px;
+  opacity: 0.7;
 }
