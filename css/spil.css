@@ -189,18 +189,3 @@
   height: 65%;
   width: 65%;
 }
-
-/* animation virker ikke */
-
-@keyframes pulse {
-  0% {
-    transform: max-height: 250px;
-    transform: max-width: 250px;
-    transform: border-radius: 125px;
-  }
-  100% {
-    transform: max-height: 270px;
-    transform: max-width: 270px;
-    transform: border-radius: 135px;
-  }
-}

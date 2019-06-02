@@ -33,6 +33,12 @@
   text-decoration: none;
 }
 
+.vote-options p {
+  color: #fff;
+  text-align: left;
+  margin-top: 16.25px;
+}
+
 .vote-option {
   width: 150.8px;
   height: 180px;
