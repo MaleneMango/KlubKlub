@@ -128,7 +128,8 @@
 .tak-center-klub {
   background: #EB8675;
   background-image: url('../media/ta_hjerte.png');
-  background-size: cover;
+  background-size: 380px; contain;
+  background-position: center;
   background-repeat: no-repeat;
   margin-top: 80px;
   margin-left: auto;
