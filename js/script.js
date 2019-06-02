@@ -13,10 +13,10 @@ var sites = [
         'gift1.html',
         'gift2.html',
         'gift3.html',
-        'nogift1.html',
-        'nogift2.html',
-        'nogift1.html',
-        'nogift2.html',
+        'nogift.html',
+        'nogift.html',
+        'nogift.html',
+        'nogift.html',
     ];
 
 function grabGift() {

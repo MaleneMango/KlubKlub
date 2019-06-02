@@ -34,6 +34,10 @@
   background-color: #9DD278;
 }
 
+.greygreen-bg {
+  background-color: #D7DFDA;
+}
+
 /*spil-pakke.html*/
 
 .gift-selected {
@@ -165,7 +169,7 @@
   text-align: center;
   max-width: 75%;
   margin: 0px auto;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 .gift-container h3 {
@@ -179,6 +183,7 @@
 
 .gift-container img {
   width: 40px;
+  margin-left: -7px;
 }
 
 .product-spotlight-circle {
@@ -189,11 +194,6 @@
   max-width: 210px;
   border-radius: 105px;
   margin: 30px auto;
-  animation: pulse 1s;
-  animation-delay: 0.5s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
   overflow: hidden;
 }
 
@@ -201,6 +201,18 @@
   margin-top: 30px;
   height: 65%;
   width: 65%;
+}
+
+.product-spotlight-circle h2 {
+  color: #808080;
+  opacity: 0.6;
+  margin-top: 90px;
+}
+
+.rabat {
+  height: 100px !important;
+  width: auto !important;
+  margin-top: 55px !important;
 }
 
 .game-content p {
@@ -216,12 +228,31 @@
   height: 50px;
   border-radius: 45px;
   background-color: #EB8675;
-    position: absolute;
-    right: 80px;
-    bottom: 300px;
+  position: absolute;
+  right: 80px;
+  bottom: 310px;
 }
 
 .rabat-spot h2 {
   margin-top: 9px;
-margin-left: 9px;
+  margin-left: 9px;
+}
+
+.mini-spotlight {
+  background-color: #fff;
+  height: 120px;
+  width: 120px;
+  border-radius: 110px;
+  overflow: hidden;
+  display: inline-block;
+  margin: -30px 4px 0px 4px;
+}
+
+.mini-spotlight img {
+  width: 80px;
+  height: auto;
+  margin-top: 25px;
+  margin-left: 0px;
+  opacity: 0.5;
+
 }
