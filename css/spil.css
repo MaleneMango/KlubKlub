@@ -51,7 +51,9 @@
 }
 
 .gift-selected h2 {
-  margin-bottom: 32.4px;
+  margin-top: 0px;
+  top: 150px;
+  position: relative;
 }
 
 #opengift {
@@ -245,7 +247,7 @@
   border-radius: 110px;
   overflow: hidden;
   display: inline-block;
-  margin: -30px 4px 0px 4px;
+  margin: -20px 4px 0px 4px;
 }
 
 .mini-spotlight img {
