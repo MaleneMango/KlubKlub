@@ -65,6 +65,13 @@
   color: #808080;
 }
 
+.vote-option p {
+  display: block;
+  margin-top: 30px;
+  position: relative;
+}
+
+
 .vote-img  {
   width: 113.75px;
   height: 107.9px;
