@@ -31,5 +31,5 @@ function randomSite() {
    setTimeout(function(){
      var i = parseInt(Math.random() * sites.length);
      location.href = sites[i];
-   }, 3700);
+   }, 2500);
 }
