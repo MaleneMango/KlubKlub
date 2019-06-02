@@ -110,13 +110,14 @@
 }
 
 .tak {
-  background-color: #DE6C6C;
+  background-color: #EB8675;
 }
 
 .takimg {
   width: 50%;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: -16px;
 }
 
 .tak-center {
@@ -126,7 +127,7 @@
 
 .tak-center h3{
   font-size: 12px;
-  margin-top: 80px;
+  margin-top: 120px;
   margin-left: 20px;
   margin-right: 20px;
   color: #fff;
