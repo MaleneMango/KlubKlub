@@ -149,7 +149,7 @@ height: 100%;
 
 /*App content - index*/
 .app-content {
-  background-color: #95D3D1;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -241,6 +241,7 @@ height: 100%;
 .voting {
   width: 50%;
   margin: 0 auto;
+  background-color: #95D3D1;
 }
 
 .forside-element-afstemning {
