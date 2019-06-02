@@ -65,10 +65,12 @@
   color: #808080;
 }
 
-.vote-option p {
+.vote-options p {
   display: block;
   margin-top: 30px;
   position: relative;
+  width: 150px;
+  margin-left: 16.25px;
 }
 
 
