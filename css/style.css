@@ -237,3 +237,18 @@ height: 100%;
   text-align: center;
   padding-top: 50px;
 }
+
+.voting {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.forside-element-afstemning {
+  width: 210px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 8.125px;
+  margin-bottom: 8.125px;
+  box-shadow: 0px 4px 10px 0px rgba(227,227,227,1);
+  text-align: center;
+}
