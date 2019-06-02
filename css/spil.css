@@ -165,7 +165,20 @@
   text-align: center;
   max-width: 75%;
   margin: 0px auto;
-  padding-top: 90px;
+  padding-top: 60px;
+}
+
+.gift-container h3 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.gift-container h2 {
+  margin-bottom: 0px;
+}
+
+.gift-container img {
+  width: 40px;
 }
 
 .product-spotlight-circle {
@@ -175,7 +188,7 @@
   max-height: 210px;
   max-width: 210px;
   border-radius: 105px;
-  margin: 10px auto;
+  margin: 30px auto;
   animation: pulse 1s;
   animation-delay: 0.5s;
   animation-direction: alternate;
@@ -188,4 +201,27 @@
   margin-top: 30px;
   height: 65%;
   width: 65%;
+}
+
+.game-content p {
+  margin: 16.25px;
+  color: #fff;
+  font-size: 12px;
+  font-family: Oswald;
+  font-weight: 200;
+}
+
+.rabat-spot {
+  width: 50px;
+  height: 50px;
+  border-radius: 45px;
+  background-color: #EB8675;
+    position: absolute;
+    right: 80px;
+    bottom: 300px;
+}
+
+.rabat-spot h2 {
+  margin-top: 9px;
+margin-left: 9px;
 }
