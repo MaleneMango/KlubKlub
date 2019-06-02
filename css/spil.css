@@ -34,6 +34,10 @@
   background-color: #9DD278;
 }
 
+.greygreen-bg {
+  background-color: #D7DFDA;
+}
+
 /*spil-pakke.html*/
 
 .gift-selected {
@@ -204,7 +208,6 @@
   opacity: 0.6;
   margin-top: 90px;
 }
-
 
 .rabat {
   height: 100px !important;
