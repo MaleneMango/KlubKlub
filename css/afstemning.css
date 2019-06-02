@@ -102,3 +102,32 @@
   box-shadow:inset 0px 0px 0px 5px #EB8675;
   transition: .3s;
 }
+
+.tak {
+  background-color: #DE6C6C;
+}
+
+.takimg {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.tak-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tak-center h3{
+  font-size: 12px;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tak-center a {
+  color: #fff;
+  text-decoration: none;
+}
