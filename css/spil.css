@@ -203,6 +203,12 @@
   width: 65%;
 }
 
+.rabat {
+  height: 100px !important;
+  width: auto !important;
+  margin-top: 55px !important;
+}
+
 .game-content p {
   margin: 16.25px;
   color: #fff;
